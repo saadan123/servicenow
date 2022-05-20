@@ -11,13 +11,16 @@ import Div8 from '../public/src/components/Div8'
 import Div9 from '../public/src/components/Div9'
 import Footer from '../public/src/components/Footer'
 import Nav2 from '../public/src/components/Nav2'
+import Navbar from '../public/src/components/Navbar'
 import styles from '../styles/Home.module.css'
+import Aboutpage from './aboutpage'
 
 
 export default function Home() {
   return (
     <>
     {/* <Div1/> */}
+    <Navbar/>
     <Div2/>
     <Div3/>
     <Nav2/>
@@ -28,6 +31,7 @@ export default function Home() {
     <Div8/>
     <Div9/>
     <Footer/>
+    {/* <Aboutpage/> */}
     </>
   )
 }
